@@ -12,8 +12,7 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >> fourth_order_tensor_decomposition
 >>> single GPU <br>
 >>>> baseline ----------unoptimized <br>
->>>> opt ---------------optimized
-
+>>>> opt ---------------optimized 
 >>> multiple_GPUs ----- using shard mode <br>
 
 >> HT_tensor_layer
