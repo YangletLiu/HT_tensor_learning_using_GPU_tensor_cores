@@ -17,7 +17,7 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 
 >> HT_tensor_layer
->>> mnist.py  --------- fully connect <br>
+>>> mnist.py ---------- fully connect <br>
 >>> mnist_ht.py ------- HT tensor layer <br>
 >>> mnist_half.py ----- HT tensor layer using apex <br>
 
