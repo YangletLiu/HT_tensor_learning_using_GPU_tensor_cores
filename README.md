@@ -16,11 +16,11 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >>> multiple_GPUs    ----- using shard mode <br>
 
 >> HT_tensor_layer
->>> mnist.py  ----- fully connect
->>> mnist_ht.py ----- HT tensor layer
->>> mnist_half.py ----- HT tensor layer using apex
+>>> mnist.py  ----- fully connect <br>
+>>> mnist_ht.py ----- HT tensor layer <br>
+>>> mnist_half.py ----- HT tensor layer using apex <br>
 
 >> TTN
->>> cuda_baseline            ----- unoptimized
->>> cuda_unitree_tensorcore  ----- optimized
->>> groundstate_example.py   ----- TensorNetwork-JAX
+>>> cuda_baseline            ----- unoptimized <br>
+>>> cuda_unitree_tensorcore  ----- optimized <br>
+>>> groundstate_example.py   ----- TensorNetwork-JAX <br>
