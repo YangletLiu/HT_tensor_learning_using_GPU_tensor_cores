@@ -5,7 +5,7 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 > HT_tensor_learning_using_GPU_tensor_cores
 >> third_order_tensor_decompsition
->>> baseline ----- unoptimized \r\n
+>>> baseline ----- unoptimized 
 >>> opt      ---- optimized
 >>> large    ----- using TSQR algorithm
 >> fourth_order_tensor_decomposition
