@@ -5,18 +5,21 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 > HT_tensor_learning_using_GPU_tensor_cores
 >> third_order_tensor_decompsition
->>> baseline ----- unoptimized 
->>> opt      ---- optimized
->>> large    ----- using TSQR algorithm
+>>> baseline ----- unoptimized <br>
+>>> opt      ---- optimized <br>
+>>> large    ----- using TSQR algorithm <br>
+
 >> fourth_order_tensor_decomposition
->>> single GPU
->>>> baseline ---- unoptimized
->>>> opt       ---- optimized
->>> multiple_GPUs    ----- using shard mode
+>>> single GPU <br>
+>>>> baseline ---- unoptimized <br>
+>>>> opt       ---- optimized <br>
+>>> multiple_GPUs    ----- using shard mode <br>
+
 >> HT_tensor_layer
 >>> mnist.py  ----- fully connect
 >>> mnist_ht.py ----- HT tensor layer
 >>> mnist_half.py ----- HT tensor layer using apex
+
 >> TTN
 >>> cuda_baseline            ----- unoptimized
 >>> cuda_unitree_tensorcore  ----- optimized
