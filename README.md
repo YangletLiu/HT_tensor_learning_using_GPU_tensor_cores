@@ -17,9 +17,12 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 
 >> HT_tensor_layer
->>> mnist.py ---------- fully connect <br>
->>> mnist_ht.py ------- HT tensor layer <br>
->>> mnist_half.py ----- HT tensor layer using apex <br>
+>>> FC_MINST
+>>>> mnist.py ---------- fully connect <br>
+>>>> mnist_ht.py ------- HT tensor layer <br>
+>>>> mnist_half.py ----- HT tensor layer using apex <br>
+>>> Alex_ImageNet
+>>>> main.py ----- the AlexNet in ImageNet (--arch to choose alexnet/ht)
 
 >> TTN
 >>> cuda_baseline -------------------unoptimized <br>
