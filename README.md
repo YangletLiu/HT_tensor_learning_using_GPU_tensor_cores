@@ -9,6 +9,12 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >>> opt ---------- optimized <br>
 >>> large -------- using TSQR algorithm <br>
 
+
+>> ablation experiment
+>>> eig2svd ----- parallel Eigenvalue decomposition <br>
+>>> matrix_free ----- matricization-free access <br>
+>>> only_tensor_core ----- only usee tensor core <br>
+
 >> fourth_order_tensor_decomposition
 >>> multiple_GPUs ----- using shard mode <br>
 >>> single GPU
