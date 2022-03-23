@@ -53,7 +53,9 @@ HT_tensor_learning_using_GPU_tensor_cores
 │    
 │   ├── Python
 │       └── groundstate_example.py (using TensorNetwork with JAX)
-│   
+│
+│ 
+├── RESULT
 │   	
 └── README.md
 ```
