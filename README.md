@@ -33,17 +33,22 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >>>> HT_4d_TensorNetwork.py ---- implementation using TensorNetwork <br>
 
 
->> HT_tensor_layer
->>> FC_MINST
->>>> mnist.py ---------- fully connect <br>
->>>> mnist_ht.py ------- HT tensor layer <br>
->>>> mnist_half.py ----- HT tensor layer using apex <br>
+> HT_tensor_layer
+>> FC_MINST
+>>> mnist.py ---------- fully connect <br>
+>>> mnist_ht.py ------- HT tensor layer <br>
+>>> mnist_half.py ----- HT tensor layer using tensor core <br>
 
 
->>> Alex_ImageNet
->>>> main.py ----- the AlexNet in ImageNet (--arch to choose alexnet/ht) <br>
+>> Alex_ImageNet
+>>> model ----- define the model 
+>>> main.py ----- the AlexNet in ImageNet (--arch to choose alexnet/ht) <br>
+>>> main_TC.py ----- the AlexNet in ImageNet using tensor core <br>
 
->> TTN
->>> cuda_baseline -------------------unoptimized <br>
->>> cuda_unitree_tensorcore --------optimized <br>
->>> groundstate_example.py --------TensorNetwork-JAX <br>
+> TTN
+>> CUDA 
+>>> Baseline -------------------unoptimized <br>
+>>> Optimized -------- optimized <br>
+
+>> Python
+>>> groundstate_example.py -------- TensorNetwork-JAX <br>
