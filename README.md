@@ -82,7 +82,7 @@ The HT tensor layer on AlexNet using GPU tensor cores with
 $ python main_TC.py -- arch ht
 ```
 ## Result
-<div style="float:left"><img width="550" height="510" src="https://raw.githubusercontent.com/XiaoYangLiu-FinRL/HT_tensor_learning_using_GPU_tensor_cores/main/RESULT/3d_runT.png"/></div>
+<div style="float:left"><img width="580" height="510" src="https://raw.githubusercontent.com/XiaoYangLiu-FinRL/HT_tensor_learning_using_GPU_tensor_cores/main/RESULT/3d_runT.png"/></div>
 
-<div style="float:left"><img width="550" height="510" src="https://raw.githubusercontent.com/XiaoYangLiu-FinRL/HT_tensor_learning_using_GPU_tensor_cores/main/RESULT/4d_runT.png"/></div>
+<div style="float:left"><img width="580" height="510" src="https://raw.githubusercontent.com/XiaoYangLiu-FinRL/HT_tensor_learning_using_GPU_tensor_cores/main/RESULT/4d_runT.png"/></div>
 
