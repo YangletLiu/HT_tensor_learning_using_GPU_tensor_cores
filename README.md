@@ -3,17 +3,23 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 ## File structure
 
-> HT_tensor_learning_using_GPU_tensor_cores
->> third_order_tensor_decompsition
->>> baseline ----- unoptimized <br>
->>> opt ---------- optimized <br>
->>> large -------- using TSQR algorithm <br>
+> third_order_tensor_decompsition
+>> CUDA
+>>> Baseline ----- unoptimized <br>
+>>> Optimized ---------- optimized <br>
+>>> TSQR -------- using TSQR algorithm <br>
+>>> ablation experiment
+>>>> eig2svd ----- parallel Eigenvalue decomposition <br>
+>>>> matrix_free ----- matricization-free access <br>
+>>>> only_tensor_core ----- only usee tensor core <br>
+
+>> Python
+>>> HT_TensorLy.py  ---- implementation using TensorLy
+>>> HT_TensorNetwork.py ---- implementation using TensorNetwork
 
 
->> ablation experiment
->>> eig2svd ----- parallel Eigenvalue decomposition <br>
->>> matrix_free ----- matricization-free access <br>
->>> only_tensor_core ----- only usee tensor core <br>
+
+
 
 >> fourth_order_tensor_decomposition
 >>> multiple_GPUs ----- using shard mode <br>
