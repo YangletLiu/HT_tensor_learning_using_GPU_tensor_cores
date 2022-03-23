@@ -12,6 +12,7 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >>>> eig2svd ----- parallel Eigenvalue decomposition <br>
 >>>> matrix_free ----- matricization-free access <br>
 >>>> only_tensor_core ----- only usee tensor core <br>
+
 >> Python
 >>> HT_TensorLy.py  ---- implementation using TensorLy <br>
 >>> HT_TensorNetwork.py ---- implementation using TensorNetwork <br>
@@ -21,10 +22,12 @@ This repository contains applications for HT tensor learning using GPU tensor co
 >> multiple_GPUs ----- using shard mode
 >>> 2_GPUs ----- using 2 GPUs <br>
 >>> 8_GPUs ----- using 8 GPUs <br>
+
 >> single GPU
 >>> CUDA
 >>>> Baseline ----- unoptimized <br>
 >>>> Optimized ---------- optimized <br>
+
 >>> Python
 >>>> HT_4d_TensorLy.py  ---- implementation using TensorLy <br>
 >>>> HT_4d_TensorNetwork.py ---- implementation using TensorNetwork <br>
