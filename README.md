@@ -81,4 +81,6 @@ The HT tensor layer on AlexNet using GPU tensor cores with
 ```
 $ python main_TC.py -- arch ht
 ```
-
+## Result
+<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/tprod13.png"/></div>
+<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/tsvd5.png"/></div>
