@@ -41,7 +41,7 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 
 >> Alex_ImageNet
->>> model ----- define the model 
+>>> model ----- define the model <br> 
 >>> main.py ----- the AlexNet in ImageNet (--arch to choose alexnet/ht) <br>
 >>> main_TC.py ----- the AlexNet in ImageNet using tensor core <br>
 
