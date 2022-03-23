@@ -79,7 +79,7 @@ The AlexNet model using HT tensor layer is run with
 ```
 $ python main.py --arch ht
 ```
-The HT tensor layer on AlexNet using GPU tensor cores with
+The HT tensor layer on AlexNet using GPU tensor cores is run with
 ```
 $ python main_TC.py -- arch ht
 ```
