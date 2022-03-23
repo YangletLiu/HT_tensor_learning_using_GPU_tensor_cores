@@ -36,9 +36,9 @@ HT_tensor_learning_using_GPU_tensor_cores
 │ 
 ├── HT_tensor_layer 
 │   ├── FC_MINST
-│   	├── mnist.py
-│     ├── mnist_ht.py 
-│     └── mnist_half.py
+│       ├── mnist.py
+│       ├── mnist_ht.py 
+│       └── mnist_half.py
 │ 
 │   ├── Alex_ImageNet
 │       ├── model (define the model)
@@ -82,5 +82,5 @@ The HT tensor layer on AlexNet using GPU tensor cores with
 $ python main_TC.py -- arch ht
 ```
 ## Result
-<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/tprod13.png"/></div>
-<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/tsvd5.png"/></div>
+<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/3d_runT.png"/></div>
+<div style="float:left"><img width="300" height="300" src="https://github.com/lihailihai/Tensor_/blob/master/RESULT/4d_runT.png"/></div>
