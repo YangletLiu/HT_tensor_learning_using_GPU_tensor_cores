@@ -35,7 +35,7 @@ HT_tensor_learning_using_GPU_tensor_cores
 │ 
 │ 
 ├── HT_tensor_layer 
-│   ├── FC_MINST
+│   ├── FC_MNIST
 │       ├── mnist.py
 │       ├── mnist_ht.py 
 │       └── mnist_half.py
