@@ -57,8 +57,23 @@ This repository contains applications for HT tensor learning using GPU tensor co
 ## Running
 
 ### CUDA Code
-running the makefile with
+Running the makefile with
 ```
+$ make clean
 $ make
+```
+### Python Code
+The AlexNet model is run with
+
+```
+$ python main.py --arch alexnet
+```
+The AlexNet model using HT tensor layer is run with
+```
+$ python main.py --arch ht
+```
+The HT tensor layer on AlexNet using GPU tensor cores with
+```
+$ python main_TC.py -- arch ht
 ```
 
