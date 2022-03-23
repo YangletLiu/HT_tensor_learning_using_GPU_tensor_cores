@@ -52,3 +52,13 @@ This repository contains applications for HT tensor learning using GPU tensor co
 
 >> Python
 >>> groundstate_example.py -------- TensorNetwork-JAX <br>
+
+
+## Running
+
+### CUDA Code
+running the makefile with
+```
+$ make
+```
+
