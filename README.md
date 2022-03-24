@@ -8,55 +8,44 @@ HT_tensor_learning_using_GPU_tensor_cores
 │ 
 ├── third_order_tensor_decompsition
 │   ├── CUDA
-│   	├── Baseline
+│     ├── Baseline (unoptimized)
 │   	├── Optimized
 │   	├── TSQR
-│   	└── ablation experiment	
-│
+│   	└── ablation experiment 	
 │   ├── Python
 │   	├── HT_TensorLy.py
 │   	└── HT_TensorNetwork.py
-│ 
-│ 
-│ 
+│
 ├── fourth_order_tensor_decomposition
 │   ├── multiple_GPUs
 │       ├── 2_GPUs      
-│       └── 8_GPUs      
-│       
+│       └── 8_GPUs            
 │    ├── single_GPU
 │        ├── CUDA 
-│            ├── Baseline
+│            ├── Baseline (unoptimized)
 │            └── Optimized
-│ 
 │        ├── Python
 │            ├── HT_4d_TensorLy.py
 │            └── HT_4d_TensorNetwork.py 
 │ 
-│ 
 ├── HT_tensor_layer 
 │   ├── FC_MNIST
 │       ├── mnist.py
-│       ├── mnist_ht.py 
-│       └── mnist_half.py
-│ 
+│       ├── mnist_ht.py (HT tensor layer using CUDA cores) 
+│       └── mnist_half.py (HT tensor layer using GPU tensor cores) 
 │   ├── Alex_ImageNet
 │       ├── model (define the model)
 │       ├── main.py (using CUDA cores)
 │       └── main_TC.py (using GPU tensor cores)
 │
-│
 ├── TTN
 │   ├── CUDA
 │       ├── Baseline
-│       └── Optimized
-│    
+│       └── Optimized   
 │   ├── Python
 │       └── groundstate_example.py (using TensorNetwork with JAX)
 │
-│ 
-├── RESULT
-│   	
+├── RESULT  	
 └── README.md
 ```
 
