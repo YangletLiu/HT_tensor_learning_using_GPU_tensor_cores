@@ -9,9 +9,9 @@ HT_tensor_learning_using_GPU_tensor_cores
 ├── third_order_tensor_decompsition
 │   ├── CUDA
 │     ├── Baseline (unoptimized)
-│   	├── Optimized
-│   	├── TSQR
-│   	└── ablation experiment 	
+│     ├── Optimized
+│     ├── TSQR
+│     └── ablation experiment 	
 │   ├── Python
 │   	├── HT_TensorLy.py
 │   	└── HT_TensorNetwork.py
