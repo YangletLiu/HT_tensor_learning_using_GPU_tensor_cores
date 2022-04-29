@@ -62,11 +62,11 @@ $ make
 The AlexNet model is run with
 
 ```
-$ python main.py --arch alexnet
+$ python alexnet_imagenet.py --arch alexnet
 ```
 The AlexNet model using HT tensor layer is run with
 ```
-$ python main.py --arch ht
+$ python alexnet_imagenet.py --arch ht
 ```
 The HT tensor layer on AlexNet using GPU tensor cores is run with
 ```
